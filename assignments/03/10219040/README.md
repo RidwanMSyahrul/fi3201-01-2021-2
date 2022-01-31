@@ -20,6 +20,10 @@ Ganti nilai variabel NIM dengan data Anda, jalankan kode yang diberikan, dan tam
 ### anwser 1
 Hasil kode di atas adalah
 ```
+Traceback (most recent call last):
+  File "HelloWorld.py", line 10, in <module>
+    s += char
+NameError: name 'char' is not defined
 ```
 
 ## question 2
@@ -28,6 +32,14 @@ Ganti nilai variabel NIM dengan data Anda, modifikasi kode yang diberikan di ata
 ### anwser 2
 Hasil modifikasi kode di atas adalah
 ```
+1:◻
+0:
+2:◻◻
+1:◻
+9:◻◻◻◻◻◻◻◻◻
+0:
+4:◻◻◻◻
+0:
 ```
 
 ## question 3
@@ -36,6 +48,14 @@ Ganti nilai variabel NIM dengan data Anda, modifikasi kode yang diberikan di ata
 ### anwser 3
 Hasil modifikasi kode di atas adalah
 ```
+1:◼
+0:
+2:◼◼
+1:◼
+9:◼◼◼◼◼◼◼◼◼
+0:
+4:◼◼◼◼
+0:
 ```
 
 ## question 4
@@ -45,3 +65,8 @@ Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
 Kode di atas berfungsi untuk
 + ..
 + ..
+
+Tested on Compiler 
+[Answer 1](https://onecompiler.com/python/3xrz4zs73)
+[Answer 2](https://onecompiler.com/python/3xrz5vdkr)
+[Answer 3](https://onecompiler.com/python/3xrz5x3a6)
