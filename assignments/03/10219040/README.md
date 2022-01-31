@@ -63,8 +63,8 @@ Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
 
 ### answer 4
 Kode di atas berfungsi untuk
-+ ..
-+ ..
++ Kode di atas berfungsi sebagai konversi angka menjadi kotak sebanyak angka dari variabel "n" sesuai dengan warna yang diinginkan (char1 untuk kotak berwarna putih, char2 untuk kotak berwarna hitam).
++ Kode pada answer 1 terjadi error karena di dalam kode tersebut, "char" tidak terdefinisi, sedangkan "char1" dan "char2" terdefinisi sebagai kotak berwarna putih dan hitam.
 
 Tested on Compiler 
 [Answer 1](https://onecompiler.com/python/3xrz4zs73)
