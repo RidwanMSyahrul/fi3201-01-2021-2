@@ -84,7 +84,6 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 Potongan kode yang perlu disisipkan adalah
 ```
     y = np.sin(2 * np.pi * (0.5 * x - 0.01 * i))
-
 ```
 dan hasil berkas gifnya adalah \
 ![gif file from simulation wave to right](basic_animation_right.gif)
