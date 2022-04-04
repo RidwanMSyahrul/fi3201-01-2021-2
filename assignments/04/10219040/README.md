@@ -83,11 +83,8 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 2
 Potongan kode yang perlu disisipkan adalah
 ```
-def animate(i):
-    x = np.linspace(0, 2, 1000)
     y = np.sin(2 * np.pi * (0.5 * x - 0.01 * i))
-    line.set_data(x, y)
-    return line,
+
 ```
 dan hasil berkas gifnya adalah \
 ![gif file from simulation wave to right](basic_animation_right.gif)
@@ -99,11 +96,7 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 ### answer 3
 Potongan kode yang perlu disisipkan adalah
 ```
-def animate(i):
-    x = np.linspace(0, 2, 1000)
     y = np.sin(2 * np.pi * (0.5 * x + 0.01 * i))
-    line.set_data(x, y)
-    return line,
 ```
 dan hasil berkas gifnya adalah \
 ![gif file from simulation wave to left](basic_animation_left.gif)
@@ -115,11 +108,7 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang stasion
 ### answer 4
 Potongan kode yang perlu disisipkan adalah
 ```
-def animate(i):
-    x = np.linspace(0, 2, 1000)
     y = np.sin(2 * np.pi * 0.5 * x) * np.cos(2 * np.pi * 0.01 * i)
-    line.set_data(x, y)
-    return line,
 ```
 dan hasil berkas gifnya adalah \
 ![gif file from simulation wave stationary](basic_animation_stasionary.gif)
