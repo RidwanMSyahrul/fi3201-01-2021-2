@@ -90,7 +90,7 @@ def animate(i):
     return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to right]()
+![gif file from simulation wave to right](basic_animation_right.gif)
 
 
 ## question 3
@@ -106,7 +106,7 @@ def animate(i):
     return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to left]()
+![gif file from simulation wave to left](basic_animation_left.gif)
 
 
 ## question 4
@@ -122,4 +122,4 @@ def animate(i):
     return line,
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave stationary]()
+![gif file from simulation wave stationary](basic_animation_stasionary.gif)
